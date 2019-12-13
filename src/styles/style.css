@@ -1,0 +1,456 @@
+/* Globals */
+/* .Profile {
+  background-color: aqua;
+} */
+html,
+body {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+/* body {
+  text-align: center;
+} */
+.HOME {
+  padding-left: 100px;
+  padding-top: 100px;
+  text-align: justify;
+  background-color: #000;
+}
+.HOME p {
+  font-size: 72px;
+  background: -webkit-linear-gradient(top left, blue, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.HOME i {
+  font-size: 25px;
+  color: #fff;
+}
+.FEAT {
+  padding: 100px 300px;
+  color: white;
+  text-align: center;
+  background-color: #000;
+}
+#icon {
+  height: 300px;
+  width: 300px;
+}
+.topnav {
+  /* overflow: hidden; */
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+}
+#logo {
+  float: left;
+  height: 90px;
+  width: 150px;
+}
+
+.topnav a:hover {
+  background: -webkit-linear-gradient(top left, blue, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hide {
+  display: none;
+}
+.landing-heading {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+}
+
+/* Buttons */
+.btn {
+  /* font-family: "Source Code Pro", monospace; */
+  padding: 0.5625rem 2.5rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  /* border-radius: 0 !important; */
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-lg {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.navibar {
+  /*font-size: 0.875rem;
+  padding: 0.6875rem 3.4375rem;
+  float: right;
+  line-height: 1.75rem;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: none;
+}
+.btn-primary {
+  background-color: #3700ff;
+  border: 1px solid #3700ff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #fff;
+  border: 1px solid #270f34;
+  background-color: #270f34;
+}
+
+/* Scaffolding */
+/* .site-wrapper {
+  display: table;
+  width: 100%;
+  height: 90% !important;
+  min-height: 90vh !important;
+}
+.site-wrapper-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 90%;
+} */
+.panel-authed {
+  padding: 0 0 0 0;
+}
+
+/* Home button */
+.btn-home-hello {
+  position: absolute;
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  top: 15px;
+  left: 15px;
+  padding: 3px 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Input */
+input,
+textarea {
+  color: #000;
+}
+input,
+textarea {
+  color: #000;
+}
+/*pangrams*/
+a {
+  color: #009f33;
+}
+
+a:hover {
+  color: #007526;
+}
+
+#root {
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
+  /* background-color: rgb(255, 255, 255); */
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.grayed {
+  opacity: 0.5;
+}
+
+.grayed input {
+  pointer-events: none;
+}
+
+.component {
+  background-color: white;
+  margin: 0.5%;
+}
+
+.componentname {
+  display: none;
+  font-size: 0.5em;
+  color: gray;
+  float: left;
+}
+
+#headercomponent {
+  padding: 20px 0;
+  margin: 0;
+  background-color: #9b9e9c;
+  color: #fff;
+}
+
+#headercomponent #rules ul {
+  display: none;
+  text-align: left;
+}
+
+#userscorecomponent {
+  /*border-bottom:1px solid gray;*/
+  color: #007526;
+}
+
+#userscorecomponent #score {
+  clear: both;
+}
+
+#userscorecomponent #wordcount {
+  clear: both;
+}
+
+#letterscomponent {
+  width: 48%;
+  float: left;
+  min-width: 300px;
+}
+
+#letterscomponent #letterscontainer {
+  min-height: 220px;
+}
+
+#letterscomponent .letter {
+  font-size: 4em;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  font-family: courier, monospace;
+  /*  width: 100px;
+  background-color: pink;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;*/
+}
+
+#letterscomponent #letter0 {
+  position: relative;
+  top: 1em;
+}
+
+#letterscomponent #letter1 {
+  position: relative;
+  top: 2.25em;
+  /* right: 1em; */
+}
+
+#letterscomponent #letter3 {
+  position: relative;
+  top: 2.25em;
+}
+
+#letterscomponent #letter4 {
+  position: relative;
+  top: 1em;
+}
+
+#letterscomponent #actions button {
+  cursor: pointer;
+  margin: 10px;
+}
+
+#letterscomponent #actions #newset {
+  background-color: #b94a20;
+  border-color: #b94a20;
+}
+
+#letterscomponent #actions #newset:hover {
+  background-color: #9b3a16;
+  border-color: #9b3a16;
+}
+
+#wordscomponent {
+  width: 48%;
+  float: right;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#wordscomponent ul {
+  list-style-type: none;
+  text-align: left;
+  clear: both;
+}
+
+#inputcomponent {
+  border: 0;
+  padding: 10px;
+}
+
+#inputcomponent #correctanswer {
+  display: none;
+}
+
+#inputcomponent #incorrectanswer {
+  display: none;
+}
+
+#inputcomponent label {
+  display: none; /* make this accessible */
+}
+
+#inputcomponent #submitbutton {
+  margin-left: 2px;
+}
+
+#wordscomponent h3 {
+  clear: both;
+}
+
+#answerscomponent {
+  clear: both;
+}
+
+#answerscomponent #answerspane {
+  display: none;
+}
+#answerscomponent button {
+  margin-bottom: 20px;
+}
+#answerscomponent ul {
+  text-align: left;
+  columns: 4;
+  list-style-type: none;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid #009f33;
+  border-radius: 5px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 6px 4px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #222222;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  position: relative;
+  top: -1px;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+button,
+input[type="submit"] {
+  color: #ffffff;
+  background-color: #3700ff;
+  border-color: #009f33;
+}
+
+button:hover,
+button:focus,
+button:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  color: #ffffff;
+  background-color: black;
+  /* border-color: #007526; */
+}
+
+small {
+  color: silver;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
