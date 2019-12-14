@@ -7,7 +7,7 @@ export default class Signin extends Component {
     return (
       <React.Fragment>
         <div class="topnav">
-          <img id="logo" src=".\images\spell.jpg" />
+          <img id="logo" src=".\images\ana.jpg" />
           <a href="#home">Home</a>
           <a href="#features">Features</a>
           {/* <a href="#contact">About</a> */}
@@ -27,7 +27,7 @@ export default class Signin extends Component {
         <div class="FEAT">
           <div id="features">
             <h1>
-              <img id="icon" src=".\images\spelt.jpg" />
+              <img id="icon" src=".\images\ana.jpg" />
             </h1>
             <h2>
               Ever wondered how different words could come together just by

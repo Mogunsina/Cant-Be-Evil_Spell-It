@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <div className="component" id="headercomponent">
         {/* <p className="componentname">Header</p> */}
-        <h1>SpellIt</h1>
+        <h1>Anagramicle</h1>
         {/* <div id="rules">
           <button
             onClick={() => {
