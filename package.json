@@ -13,10 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "blockstack": "^19.2.5",
+    "link": "^0.1.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-native": "^0.61.5",
+    "react-native-tts": "^3.1.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-speech": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

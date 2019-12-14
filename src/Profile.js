@@ -145,7 +145,6 @@ export default class Profile extends Component {
   }
 
   answerToggler() {
-    //https://stackoverflow.com/questions/36403101/toggle-class-in-react/36404061
     let css = this.state.answerShow === "hidden" ? "show" : "hidden";
     this.showAnswersEndGame();
     this.setState({
@@ -360,12 +359,6 @@ export default class Profile extends Component {
           showAnswersEndGame={this.showAnswersEndGame.bind(this)}
         />
 
-        {/* <h1>
-          Hello,{" "}
-          <span id="heading-name">
-            {person.name() ? person.name() : "Nameless Person"}
-          </span>
-        </h1> */}
         <p className="lead">
           <button
             className="btn btn-primary navibar"

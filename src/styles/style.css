@@ -268,23 +268,25 @@ a:hover {
 
 #letterscomponent #letter0 {
   position: relative;
-  top: 1em;
+  /* top: 1em; */
 }
 
 #letterscomponent #letter1 {
   position: relative;
-  top: 2.25em;
+  /* top: 2.25em; */
+
   /* right: 1em; */
 }
 
 #letterscomponent #letter3 {
   position: relative;
-  top: 2.25em;
+  /* top: 2.25em; */
 }
 
 #letterscomponent #letter4 {
   position: relative;
-  top: 1em;
+  /* top: 1em; */
+  /* W */
 }
 
 #letterscomponent #actions button {

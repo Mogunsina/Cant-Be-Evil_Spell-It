@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Speech from "react-speech";
 class Letters extends Component {
   render() {
     return (
@@ -13,11 +13,20 @@ class Letters extends Component {
               </div>
             );
           })}
+
+          <Speech
+            // styles={style.js}
+            stop={true}
+            pause={true}
+            resume={true}
+            text="Here is your scrambled word, goodluck!"
+            voice="Google UK English Male"
+          />
         </div>
         <p>
           <small>
             <em>
-              Letters can be used more than once
+              Letters can be used more than once - Pangrams
               <br />
               Singular nouns &amp; present tense verbs only
             </em>
