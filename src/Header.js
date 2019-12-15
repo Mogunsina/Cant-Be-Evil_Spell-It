@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 
 class Header extends Component {
-  displayRules() {
-    // show/hide rules
-    console.log("Rules button clicked");
-  }
+  // displayRules() {
+  //   console.log("Rules button clicked");
+  // }
   render() {
     return (
       <div className="component" id="headercomponent">
-        {/* <p className="componentname">Header</p> */}
-        <h1>Anagramicle</h1>
+        <h1>Welcome to your Anagramicle</h1>
         {/* <div id="rules">
           <button
             onClick={() => {

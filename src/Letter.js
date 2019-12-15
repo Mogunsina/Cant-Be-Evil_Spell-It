@@ -9,18 +9,17 @@ class Letters extends Component {
           {this.props.validLetters.map(function(item, i) {
             return (
               <div key={i} className="letter" id={"letter" + i}>
-                {item}
+                {item}{" "}
               </div>
             );
           })}
+          <p></p>
 
           <Speech
-            // styles={style.js}
-            stop={true}
-            pause={true}
-            resume={true}
-            text="Here is your scrambled word, goodluck!"
-            voice="Google UK English Male"
+            displayText="PLAY"
+            textAsButton={true}
+            text="These are the scrambled words given to you to find the number of words expected. GOODLUCK! "
+            voice="Google US English Male"
           />
         </div>
         <p>
